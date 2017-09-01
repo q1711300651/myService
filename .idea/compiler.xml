@@ -7,25 +7,44 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-1" />
+        <module name="eureka-client-1-repl" />
         <module name="eureka-client-2" />
         <module name="eureka-server" />
         <module name="myservice" />
-        <module name="service-config-client" />
+        <module name="service-client-1" />
+        <module name="service-client-1-repl" />
+        <module name="service-client-2" />
+        <module name="service-client-3" />
+        <module name="service-client-4" />
         <module name="service-config-server" />
         <module name="service-feign" />
         <module name="service-ribbon" />
+        <module name="service-zipkin" />
         <module name="service-zuul" />
+      </profile>
+      <profile name="Annotation profile for service-config-client" enabled="true">
+        <sourceOutputDir name="../service-config-client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../service-config-client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client-1" target="1.8" />
+      <module name="eureka-client-1-repl" target="1.8" />
       <module name="eureka-client-2" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="myservice" target="1.5" />
+      <module name="service-client-1" target="1.8" />
+      <module name="service-client-1-repl" target="1.8" />
+      <module name="service-client-2" target="1.8" />
+      <module name="service-client-3" target="1.8" />
+      <module name="service-client-4" target="1.8" />
       <module name="service-config-client" target="1.8" />
       <module name="service-config-server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-zipkin" target="1.8" />
       <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-1/eureka-client-1.iml" filepath="$PROJECT_DIR$/eureka-client-1/eureka-client-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-2/eureka-client-2.iml" filepath="$PROJECT_DIR$/eureka-client-2/eureka-client-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/myservice.iml" filepath="$PROJECT_DIR$/myservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service-config-client/service-config-client.iml" filepath="$PROJECT_DIR$/service-config-client/service-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client-1/eureka-client-1.iml" filepath="$PROJECT_DIR$/service-client-1/eureka-client-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client-1-repl/eureka-client-1-repl.iml" filepath="$PROJECT_DIR$/service-client-1-repl/eureka-client-1-repl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client-2/service-client-2.iml" filepath="$PROJECT_DIR$/service-client-2/service-client-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client-3/service-client-3.iml" filepath="$PROJECT_DIR$/service-client-3/service-client-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client-4/service-client-4.iml" filepath="$PROJECT_DIR$/service-client-4/service-client-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config-server/service-config-server.iml" filepath="$PROJECT_DIR$/service-config-server/service-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zipkin/service-zipkin.iml" filepath="$PROJECT_DIR$/service-zipkin/service-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
     </modules>
   </component>
