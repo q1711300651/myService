@@ -11,6 +11,7 @@ public class ServiceConfigClientApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }
